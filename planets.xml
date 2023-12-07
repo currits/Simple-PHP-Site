@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ORBITAL PERIOD is the time it takes the planet to orbit its host body, in earth days, rounded to nearest day.
+  We could also do years? if we want. Also let me know if you want it to be just '88' or the full string eg '88 days'
+
+SIZE is mean radius relative to Earth's. Relative volume was getting real whack, some are 2e-11, too many numbers lol
+
+TYPE is one of Rocky, Gaseous, Icy.
+
+DISCOVERED is an describing the best approximation of the year discovered or its earliest known record. Negative values indicate BCE, positive values AD, and 0 being prehistoric.
+
+SUN DISTANCE is the semi major axis of the planet's orbit in AU, or if its a moon, it takes its Parent planet's sun distance value.
+
+ABOUT is a lil blurb.
+
+Other tags to add as we go
+-->
+<planets>
+	<planet>
+		<title>Mercury</title>
+		<orbitPeriod>88</orbitPeriod>
+		<size>0.38</size>
+		<type>Rocky</type>
+		<discovered>-1400</discovered>
+		<sunDistance>0.39</sunDistance>
+		<about>The closest planet to the Sun, Mercury experiences surface temperatures of up to 427°C</about>
+		<image>Mercury_in_true_color.jpg</image>
+	</planet>
+
+	<planet>
+		<title>Venus</title>
+		<orbitPeriod>225</orbitPeriod>
+		<size>0.95</size>
+		<type>Rocky</type>
+		<discovered>0</discovered>
+		<sunDistance>0.72</sunDistance>
+		<about>The second planet from the Sun, Venus has a dense atmosphere that traps extreme heat from the Sun.</about>
+		<image>venus.jpg</image> 
+	</planet>
+
+	<planet>
+		<title>Earth</title>
+		<orbitPeriod>365</orbitPeriod>
+		<size>1</size>
+		<type>Rocky</type>
+		<discovered>0</discovered>
+		<sunDistance>1</sunDistance>
+		<about>Our home!</about>
+		<image>earth.jpg</image>
+
+		<moons>
+			<moon>
+				<title>Luna</title>
+				<orbitPeriod>27</orbitPeriod>
+				<size>0.27</size>
+				<type>Rocky</type>
+				<discovered>0</discovered>
+				<sunDistance>1</sunDistance>
+				<about>The Moon! Looked upon by all humanity since forever.</about>
+				<image>Luna.jpg</image>
+			</moon>
+		</moons>
+
+	</planet>
+
+	<planet>
+		<title>Mars</title>
+		<orbitPeriod>687</orbitPeriod>
+		<size>0.53</size>
+		<type>Rocky</type>
+		<discovered>1534 BCE</discovered>
+		<sunDistance>1.52</sunDistance>
+		<about>The fourth planet from the Sun, Mars is believed to have once had oceans on its surface.</about>
+		<image>mars.png</image> 
+
+		<moons>
+			<moon>
+				<title>Phobos</title>
+				<orbitPeriod>0.3</orbitPeriod>
+				<size>0.0018</size>
+				<type>Rocky</type>
+				<discovered>1877</discovered>
+				<sunDistance>1.52</sunDistance>
+				<about>The closest of Mars' moons, it orbits faster than Mars rotates.</about>
+				<image>Phobos.jpg</image> 
+			</moon>
+			<moon>
+				<title>Deimos</title>
+				<orbitPeriod>1.3</orbitPeriod>
+				<size>0.001</size>
+				<type>Rocky</type>
+				<discovered>1877</discovered>
+				<sunDistance>1.52</sunDistance>
+				<about>Mars' other moon, named after Dread from the book, The Iliad.</about>
+				<image>Deimos.jpg</image> 
+			</moon>
+		</moons>
+	</planet>
+
+	<planet>
+		<title>Ceres</title>
+		<orbitPeriod>1680</orbitPeriod>
+		<size>0.07</size>
+		<type>Rocky</type>
+		<discovered>1801</discovered>
+		<sunDistance>2.77</sunDistance>
+		<about>The largest object within the Asteroid Belt, Ceres is a dwarf planet large enough to pull itself into a sphere.</about>
+		<image>ceres.jpg</image> 
+	</planet>
+
+	<planet>
+		<title>Jupiter</title>
+		<orbitPeriod>4333</orbitPeriod>
+		<size>11</size>
+		<type>Gaseous</type>
+		<discovered>-700</discovered>
+		<sunDistance>5.2</sunDistance>
+		<about>Jupiter is the largest of the Gas Giants. It possesses an iconic storm larger than the Earth, that will one day dissipate.</about>
+		<image>jupiter.jpg</image> 
+
+		<moons>
+			<moon>
+				<title>Io</title>
+				<orbitPeriod>1.8</orbitPeriod>
+				<size>0.29</size>
+				<type>Rocky</type>
+				<discovered>1610</discovered>
+				<sunDistance>5.2</sunDistance>
+				<about>Discovered by Galileo, Io is the most volcanically active planet in the solar system.</about>
+				<image>io.jpg</image> 
+			</moon>
+			<moon>
+				<title>Europa</title>
+				<orbitPeriod>3.6</orbitPeriod>
+				<size>0.25</size>
+				<type>Icy</type>
+				<discovered>1610</discovered>
+				<sunDistance>5.2</sunDistance>
+				<about>Discovered by Galileo, Europa is believed to have a subsurface ocean layer.</about>
+				<image>Europa.jpg</image> 
+			</moon>
+			<moon>
+				<title>Ganymede</title>
+				<orbitPeriod>7.2</orbitPeriod>
+				<size>0.41</size>
+				<type>Rocky</type>
+				<discovered>1610</discovered>
+				<sunDistance>5.2</sunDistance>
+				<about>Discovered by Galileo, Ganymede possesses an underwater ocean believed to be larger than Earth's oceans combined.</about>
+				<image>Ganymede.png</image> 
+			</moon>
+			<moon>
+				<title>Callisto</title
+				><orbitPeriod>17</orbitPeriod>
+				<size>0.38</size>
+				<type>Icy</type>
+				<discovered>1610</discovered>
+				<sunDistance>5.2</sunDistance>
+				<about>Discovered by Galileo, Callisto is tidally locked to Juipter like our Moon is to Earth.</about>
+				<image>Callisto.jpg</image> 
+			</moon>
+		</moons>
+	</planet>
+
+	<planet>
+		<title>Saturn</title>
+		<orbitPeriod>10759</orbitPeriod>
+		<size>9</size>
+		<type>Gaseous</type>
+		<discovered>0</discovered>
+		<sunDistance>9.6</sunDistance>
+		<about>The second largest Gas Giant in the Solar System, Saturn possesses a ring system formed by its numerous moons.</about>
+		<image>Saturn.jpg</image> 
+
+		<moons>
+			<moon>
+				<title>Enceladus</title>
+				<orbitPeriod>1.4</orbitPeriod>
+				<size>0.04</size>
+				<type>Icy</type>
+				<discovered>1789</discovered>
+				<sunDistance>9.6</sunDistance>
+				<about>Enceladus is an Icy moon of Saturn, and undergoes cryovolcanism; ejecting plumes of water and ice out into space.</about>
+				<image>Enceladus.jpg</image> 
+			</moon>
+			<moon>
+				<title>Dione</title>
+				<orbitPeriod>2.7</orbitPeriod>
+				<size>0.09</size>
+				<type>Icy</type>
+				<discovered>1684</discovered>
+				<sunDistance>9.6</sunDistance>
+				<about>Dione is an Icy moon of Saturn, exhibiting cryovolcanism and likely possessing an underwater ocean.</about>
+				<image>dione.jpg</image> 
+			</moon>
+			<moon>
+				<title>Rhea</title>
+				<orbitPeriod>4.5</orbitPeriod>
+				<size>0.12</size>
+				<type>Icy</type>
+				<discovered>1672</discovered>
+				<sunDistance>9.6</sunDistance>
+				<about>Rhea is an Icy moon of Saturn, believed to not have an underwater ocean like other moons of Saturn, instead being a solid ice mantle.</about>
+				<image>rhea.jpg</image> 
+			</moon>
+			<moon>
+				<title>Titan</title>
+				<orbitPeriod>16</orbitPeriod>
+				<size>0.4</size>
+				<type>Rocky</type>
+				<discovered>1655</discovered>
+				<sunDistance>9.6</sunDistance>
+				<about>Titan is the only known moon to possess a dense atmosphere. Surface pressure and temperature are such that Titan maintains a Methane cycle similar to Earths water cycle, with rivers, lakes, seas and rains of Methane.</about>
+				<image>Titan.jpg</image> 
+			</moon>
+			<moon>
+				<title>Iapetus</title>
+				<orbitPeriod>79</orbitPeriod>
+				<size>0.12</size>
+				<type>Icy</type>
+				<discovered>1671</discovered>
+				<sunDistance>9.6</sunDistance>
+				<about>Iapetus is an icy moon of Saturn, with a large crater that makes it similar in appearance to the Death Star, from Star Wars</about>
+				<image>iapetus.jpg</image> 
+			</moon>
+		</moons>
+	</planet>
+
+	<planet>
+		<title>Uranus</title>
+		<orbitPeriod>30689</orbitPeriod>
+		<size>4</size>
+		<type>Gaseous</type>
+		<discovered>1781</discovered>
+		<sunDistance>19.2</sunDistance>
+		<about>Uranus is a Gas Giant, composed of compounds considered "ices" (Water, Methane, Ammonia) and is often referred to as an Ice Giant. It is unique in that it rotates on it's side, tumbling end over end, relative to Earth</about>
+		<image>uanus.jpg</image> 
+
+		<moons>
+			<moon>
+				<title>Titania</title>
+				<orbitPeriod>8.7</orbitPeriod>
+				<size>0.12</size>
+				<type>Icy</type>
+				<discovered>1781</discovered>
+				<sunDistance>19.2</sunDistance>
+				<about>An Icy moon or Uranus, Titania is believed to possess a rocky core with a seperated icy mantle above.</about>
+				<image>titania.jpg</image> 
+			</moon>
+			<moon>
+				<title>Oberon</title>
+				<orbitPeriod>13</orbitPeriod>
+				<size>0.12</size>
+				<type>Icy</type>
+				<discovered>1787</discovered>
+				<sunDistance>19.2</sunDistance>
+				<about>Oberon is an Icy moon of Uranus, named after the King of Fairies in Shakespeare's A Midsummer Night's Dream.</about>
+				<image>Oberon.jpg</image> 
+			</moon>
+		</moons>
+	</planet>
+
+	<planet>
+		<title>Neptune</title>
+		<orbitPeriod>60195</orbitPeriod>
+		<size>3.8</size>
+		<type>Gaseous</type>
+		<discovered>1846</discovered>
+		<sunDistance>30.1</sunDistance>
+		<about>Neptune is a Gas Giant, composed of compounds considered ices (Water, Methane, Ammonia) and is often referred to as an Ice Giant. Neptune's distance from the sun leaves it's atmosphere at a termperature nearing -218°C.</about>
+		<image>neptune.jpg</image>
+
+		<moons>
+			<moon>
+				<title>Triton</title>
+				<orbitPeriod>5.9</orbitPeriod>
+				<size>0.2</size>
+				<type>Icy</type>
+				<discovered>1846</discovered>
+				<sunDistance>30.1</sunDistance>
+				<about>Triton is an Icy moon of Neptune with a retrograde orbit (It orbits in a direction opposite to its rotation), and is believed to have formed in the Kuiper belt and then later been captured by Neptune.</about>
+				<image>triton.jpg</image> 
+			</moon>
+		</moons>
+	</planet>
+
+	<planet>
+		<title>Pluto</title>
+		<orbitPeriod>90560</orbitPeriod>
+		<size>0.19</size>
+		<type>Rocky</type>
+		<discovered>1930</discovered>
+		<sunDistance>39.5</sunDistance>
+		<about>Pluto is a dwarf planet residing within the Kuiper belt. A recent flyby of the New Horizons probe in 2015 revealed a heart-shaped region on the planet's surface, likely formed as a result of ice flows.</about>
+		<image>pluto.jpg</image> 
+
+		<moons>
+			<moon>
+				<title>Charon</title>
+				<orbitPeriod>6.4</orbitPeriod>
+				<size>0.1</size>
+				<type>Icy</type>
+				<discovered>1978</discovered>
+				<sunDistance>39.5</sunDistance>
+				<about>Charon and Pluto are technically a dual system; their similar masses means they orbit each other, and together orbit the Sun along Pluto's orbit. The reddish region of Charon's north pole is believed to be caused by the trapping of escaped gases from Pluto.</about>
+				<image>charon.jpg</image> 
+			</moon>
+		</moons>
+	</planet>
+</planets>
